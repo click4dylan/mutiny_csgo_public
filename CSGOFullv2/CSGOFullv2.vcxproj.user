@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommand>C:\Program Files %28x86%29\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>-window -noborder -novid -benchmar -w 1920 -h 1080 +tv_enabled 0 +tv_autorecord 0 -threads 8 +mat_queue_mode 2 -insecure -scaleform</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerEnvironment>
+    </LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_VS2015|Win32'">
+    <LocalDebuggerCommand>C:\Program Files %28x86%29\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>-window -noborder -novid -benchmar -w 1920 -h 1080 +tv_enabled 0 +tv_autorecord 0 -threads 8 +mat_queue_mode 2 -insecure -scaleform</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerEnvironment />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugNit|Win32'">
+    <LocalDebuggerCommand>C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>-window -noborder -novid -benchmar -w 1920 -h 1080 +tv_enabled 0 +tv_autorecord 0 -threads 8 +mat_queue_mode 2 -tickrate 64 +password fuckoff -insecure</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='JakesDebug|Win32'">
+    <LocalDebuggerCommand>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>+mat_queue_mode 2 -NoQueuedPacketThread -nothreadedsockets -w 1920 -h 1080 +sv_setsteamaccount FA912759CCF6FC2C4E90E70A43F35140 -novid -game csgo +sv_cheats 1 +mp_warmuptime 99999 -window -noborder +password fuckoff</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='JakeDebug|Win32'">
+    <LocalDebuggerCommand>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>+mat_queue_mode 2 -NoQueuedPacketThread -nothreadedsockets -w 1920 -h 1080 +sv_setsteamaccount FA912759CCF6FC2C4E90E70A43F35140 -novid -game csgo +sv_cheats 1 +mp_warmuptime 99999 -window -noborder</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Laptop|Win32'">
+    <LocalDebuggerCommand>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>-game csgo -insecure -dev -allowdebug +map de_dust2 +sv_cheats 1 +mp_warmuptime 99999</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
+    <RemoteDebuggerCommand>C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</RemoteDebuggerCommand>
+    <RemoteDebuggerCommandArguments>-insecure -window -noborder -novid</RemoteDebuggerCommandArguments>
+    <RemoteDebuggerWorkingDirectory>C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</RemoteDebuggerWorkingDirectory>
+    <RemoteDebuggerServerName>Dylan-HP</RemoteDebuggerServerName>
+    <RemoteDebuggerConnection>RemoteWithoutAuthentication</RemoteDebuggerConnection>
+    <DeploymentDirectory>\\Dylan-HP\Users\Dylan\Documents\</DeploymentDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Ignacio|Win32'">
+    <LocalDebuggerCommand>D:\Steam\Games\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>-game csgo -insecure -dev -allowdebug +map de_dust2 +sv_cheats 1 +mp_warmuptime 99999</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>D:\Steam\Games\steamapps\common\Counter-Strike Global Offensive\</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <RemoteDebuggerCommand>C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</RemoteDebuggerCommand>
+    <RemoteDebuggerCommandArguments>-insecure -window -noborder -novid</RemoteDebuggerCommandArguments>
+    <RemoteDebuggerWorkingDirectory>C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</RemoteDebuggerWorkingDirectory>
+    <RemoteDebuggerServerName>Dylan-HP</RemoteDebuggerServerName>
+    <RemoteDebuggerConnection>RemoteWithoutAuthentication</RemoteDebuggerConnection>
+    <DeploymentDirectory>\\Dylan-HP\Users\Dylan\Documents\</DeploymentDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommand>C:\Program Files (x86)\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-window -noborder -novid -game csgo -insecure +sv_cheats 1 +mp_warmuptime 99999 +exec autoexec.cfg -port 27015</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>C:\Program Files (x86)\SteamLibrary\steamapps\common\Counter-Strike Global Offensive</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release LLInjectable|Win32'">
+    <LocalDebuggerCommand>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-window -noborder -novid -game csgo -insecure +sv_cheats 1 +mp_warmuptime 99999 +exec autoexec.cfg -port 27015</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerDebuggerType>NativeOnly</LocalDebuggerDebuggerType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release LLInjectable ServerCrasher|Win32'">
+    <LocalDebuggerCommand>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-window -noborder -novid -game csgo -insecure +sv_cheats 1 +mp_warmuptime 99999 +exec autoexec.cfg -port 27015</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerDebuggerType>NativeOnly</LocalDebuggerDebuggerType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_imi|Win32'">
+    <LocalDebuggerCommand>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-window -noborder -novid -game csgo -insecure +sv_cheats 1 +mp_warmuptime 99999 +exec autoexec.cfg -port 27015</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerDebuggerType>NativeOnly</LocalDebuggerDebuggerType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Production|Win32'">
+    <LocalDebuggerCommand>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-window -noborder -novid -game csgo -insecure +sv_cheats 1 +mp_warmuptime 99999 +exec autoexec.cfg -port 27015</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerDebuggerType>NativeOnly</LocalDebuggerDebuggerType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_DylanVAC|Win32'">
+    <LocalDebuggerCommand>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-window -noborder -novid -game csgo -insecure +sv_cheats 1 +mp_warmuptime 99999 +exec autoexec.cfg -port 27015</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerDebuggerType>Auto</LocalDebuggerDebuggerType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Mutiny|Win32'">
+    <LocalDebuggerCommand>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-window -noborder -novid -game csgo -insecure +sv_cheats 1 +mp_warmuptime 99999 +exec autoexec.cfg -port 27015</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerDebuggerType>Auto</LocalDebuggerDebuggerType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_DumpSigs|Win32'">
+    <LocalDebuggerCommand>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-window -noborder -novid -game csgo -insecure +sv_cheats 1 +mp_warmuptime 99999 +exec autoexec.cfg -port 27015</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerDebuggerType>NativeOnly</LocalDebuggerDebuggerType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_DumpSigs_VS2015|Win32'">
+    <LocalDebuggerCommand>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-window -noborder -novid -game csgo -insecure +sv_cheats 1 +mp_warmuptime 99999 +exec autoexec.cfg -port 27015</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerDebuggerType>NativeOnly</LocalDebuggerDebuggerType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Friends|Win32'">
+    <LocalDebuggerCommand>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-window -noborder -novid -game csgo -insecure +sv_cheats 1 +mp_warmuptime 99999 +exec autoexec.cfg -port 27015</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerDebuggerType>NativeOnly</LocalDebuggerDebuggerType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_DumpBlackbookSigs|Win32'">
+    <LocalDebuggerCommand>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-window -noborder -novid -game csgo -insecure +sv_cheats 1 +mp_warmuptime 99999 +exec autoexec.cfg -port 27015</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerDebuggerType>NativeOnly</LocalDebuggerDebuggerType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ServerSideOnly|Win32'">
+    <LocalDebuggerCommand>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-window -noborder -novid -game csgo -insecure +sv_cheats 1 +mp_warmuptime 99999 +exec autoexec.cfg -port 27015</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerDebuggerType>NativeOnly</LocalDebuggerDebuggerType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Debug Heartbeat|Win32'">
+    <LocalDebuggerCommand>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-window -noborder -novid -game csgo -insecure +sv_cheats 1 +mp_warmuptime 99999 +exec autoexec.cfg -port 27015</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='JakeRelease|Win32'">
+    <LocalDebuggerCommand>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-benchmark +tv_enable 1 -window -noborder -novid -game csgo -insecure +map de_dust2 +sv_cheats 1 +mp_warmuptime 99999 +exec autoexec.cfg -port 27015 -benchmark</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release No Heartbeat|Win32'">
+    <LocalDebuggerCommand>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-benchmark +tv_enable 1 -window -noborder -novid -game csgo -insecure +map de_dust2 +sv_cheats 1 +mp_warmuptime 99999 +exec autoexec.cfg -port 27015 -benchmark</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release NVAVX|Win32'">
+    <LocalDebuggerCommand>C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>+tv_enable 1 -window -noborder -novid -game csgo +map de_dust2 +sv_cheats 1 +mp_warmuptime 99999 +exec autoexec.cfg -port 27015</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release NVAVX Nit|Win32'">
+    <LocalDebuggerCommand>C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>+tv_enable 1 -window -noborder -novid -game csgo +map de_dust2 +sv_cheats 1 +mp_warmuptime 99999 +exec autoexec.cfg -port 27015</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release NVSSE2|Win32'">
+    <LocalDebuggerCommand>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>+connect nightfirepc.com +tv_enable 1 -window -noborder -novid -game csgo +map de_dust2 +sv_cheats 1 +mp_warmuptime 99999 +exec autoexec.cfg -insecure</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release NVSP|Win32'">
+    <LocalDebuggerCommand>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>+tv_enable 1 -window -noborder -novid -game csgo -insecure +map de_dust2 +sv_cheats 1 +mp_warmuptime 99999 +exec autoexec.cfg</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Vista|Win32'">
+    <LocalDebuggerCommand>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>+tv_enable 1 -window -noborder -novid -game csgo -insecure +sv_cheats 1 +mp_warmuptime 99999 +sv_setsteamaccount EB7964F3639A5085F1A632B7D1E3F556 +exec autoexec.cfg +connect 192.168.1.10</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release ATI|Win32'">
+    <LocalDebuggerCommand>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-game csgo -insecure -dev -allowdebug +map de_dust2 +sv_cheats 1 +mp_warmuptime 99999</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release ATISSE2|Win32'">
+    <LocalDebuggerCommand>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-game csgo -insecure -dev -allowdebug +map de_dust2 +sv_cheats 1 +mp_warmuptime 99999</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ATISSE2C|Win32'">
+    <LocalDebuggerCommand>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-game csgo -insecure -dev -allowdebug +map de_dust2 +sv_cheats 1 +mp_warmuptime 99999</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>I:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Ignacio|Win32'">
+    <LocalDebuggerCommand>D:\Steam\Games\steamapps\common\Counter-Strike Global Offensive\csgo.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-game csgo -insecure -dev -allowdebug +map de_dust2 +sv_cheats 1 +mp_warmuptime 99999</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>D:\Steam\Games\steamapps\common\Counter-Strike Global Offensive\</LocalDebuggerWorkingDirectory>
+    <DeploymentDirectory>D:\</DeploymentDirectory>
+    <RemoteDebuggerCommand>D:\Steam\Games\steamapps\common\Counter-Strike Global Offensive\csgo.exe</RemoteDebuggerCommand>
+    <RemoteDebuggerCommandArguments>-insecure -dev -noborder -window -novid</RemoteDebuggerCommandArguments>
+    <RemoteDebuggerWorkingDirectory>D:\Steam\Games\steamapps\common\Counter-Strike Global Offensive\</RemoteDebuggerWorkingDirectory>
+    <RemoteDebuggerConnection>RemoteWithoutAuthentication</RemoteDebuggerConnection>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ShowAllFiles>false</ShowAllFiles>
+  </PropertyGroup>
+</Project>

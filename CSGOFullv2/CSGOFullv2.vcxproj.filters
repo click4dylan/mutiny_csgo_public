@@ -1,0 +1,1724 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Custom_SDK">
+      <UniqueIdentifier>{822aeadb-1d85-4080-bbc4-c64949925d59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Custom_SDK">
+      <UniqueIdentifier>{2f236485-b443-4662-b35c-9e60d76a9a70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Licensing">
+      <UniqueIdentifier>{b5e847c2-a8cb-4c49-bf25-269c7e7f7625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Licensing">
+      <UniqueIdentifier>{094368d2-f613-45f3-a2c4-75ed6d2699c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Usefuls">
+      <UniqueIdentifier>{18efa01a-50b6-4db5-85b5-0c047e0dd101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Usefuls">
+      <UniqueIdentifier>{6d7011a5-836e-4b9c-ab11-bfd392cf7d43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Drawing">
+      <UniqueIdentifier>{27983ef3-a621-4447-8330-17839e234d7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Drawing">
+      <UniqueIdentifier>{5732513b-df8a-4ce8-809e-489d158cb0be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Offsets">
+      <UniqueIdentifier>{c02a63ad-5b44-4fc4-882b-c677c0dd04c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VMProtect">
+      <UniqueIdentifier>{00d248d3-5b94-4a1a-829f-fd1a48d2561e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resolver/Backtracking">
+      <UniqueIdentifier>{b9b6582a-3330-44a6-9c31-8f6c2247505c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Skin Changer">
+      <UniqueIdentifier>{60903c68-1947-42ba-822d-6a1d8b94721f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FarESP">
+      <UniqueIdentifier>{56277f6a-9a18-4ac1-943b-4b0ae730293d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CVars">
+      <UniqueIdentifier>{42bc33d2-bc3a-4d4d-9ad9-3686ef1687d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VAC">
+      <UniqueIdentifier>{f0adfa54-9ce7-4890-9301-d6f0081ad2f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hooks">
+      <UniqueIdentifier>{dcb21877-4d78-4dd0-b123-7065e0c45182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C++17">
+      <UniqueIdentifier>{8185bb8c-6cb9-4a44-9c81-4a72cddfdf9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adriel">
+      <UniqueIdentifier>{4878ae9a-85bf-4806-b3c4-321b84020e70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adriel\ImGui">
+      <UniqueIdentifier>{a3a3f14b-8e4b-43a7-9b94-57e6033586d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adriel\ImGui\Resource">
+      <UniqueIdentifier>{ad68a616-7807-4ef1-8c95-7f71e131270c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adriel\Input">
+      <UniqueIdentifier>{9c250bd7-d3ea-4095-8702-d1a1083b5ee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adriel\Console">
+      <UniqueIdentifier>{9ffa19d3-57af-41c4-9bc5-10cd9c876343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adriel\Libs">
+      <UniqueIdentifier>{1685b48b-1b9f-46b7-bfb0-7ff8f95fcf80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adriel\Util">
+      <UniqueIdentifier>{d043b225-cf80-40f7-9d48-4a501ecd01a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adriel\Precompiled">
+      <UniqueIdentifier>{63abade2-b261-4e6c-8f4c-c76c41addd7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adriel\ImGui\Extra">
+      <UniqueIdentifier>{55cb622c-27bb-4961-94b0-716ac2e48e95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adriel\Config">
+      <UniqueIdentifier>{0e05aded-778e-438e-a08b-5f60c8290149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adriel\Custom Def">
+      <UniqueIdentifier>{7e997ba8-11ae-41ff-bc09-d3483300ae93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adriel\Renderer">
+      <UniqueIdentifier>{9f167098-ae7d-45cb-9dab-9b835c97ab95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adriel\Math">
+      <UniqueIdentifier>{8e670437-e908-48b7-a69f-6ff2a7e9b704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adriel\Variable">
+      <UniqueIdentifier>{d98be3b8-aeaf-4e53-9bba-69c55841b3af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adriel\UI">
+      <UniqueIdentifier>{53afd403-c89e-4817-a4f5-8385eb7ae76a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adriel\Features">
+      <UniqueIdentifier>{ed685f67-6857-4af3-a0fe-b4c9a74b5bcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adriel\Features\asuswall">
+      <UniqueIdentifier>{458be1fc-a5ab-4ab0-b5eb-cc733a829927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adriel\Features\nade_prediction">
+      <UniqueIdentifier>{84ccda5b-1417-4ba2-901f-fa5d2fbc0c8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Security">
+      <UniqueIdentifier>{35d71dee-776e-4c76-8470-fa449049814c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Security">
+      <UniqueIdentifier>{35b1cc4b-74d7-4d43-8ed3-2eb1811ff65d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adriel\Features\clantag_changer">
+      <UniqueIdentifier>{a4d04a6d-329a-41ad-963d-7e093a5ffd24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adriel\Features\name_changer">
+      <UniqueIdentifier>{34e5826e-4a53-4ac0-a7d5-fd3b070b33e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adriel\Features\spectator_list">
+      <UniqueIdentifier>{d80fb419-9e15-4264-9bd0-2f7d2bbcb39d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Logic">
+      <UniqueIdentifier>{9522be28-f368-48ab-8ac3-76b5d24b02c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks">
+      <UniqueIdentifier>{d20a0b09-6db5-422a-b206-b35a809e9018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adriel\ImGui\DirectX9">
+      <UniqueIdentifier>{6f1f1a2d-b98f-4025-90be-0b05f3fa45cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adriel\ImGui\Win32">
+      <UniqueIdentifier>{f5bef53d-4b62-400e-8c23-eb965017e3ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Logic">
+      <UniqueIdentifier>{cf14e376-694c-4772-bdca-317efd6c3cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderer">
+      <UniqueIdentifier>{c13088ae-52c8-4dd5-b8b7-6f379961d443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adriel\FreeType">
+      <UniqueIdentifier>{6d40e027-9aa3-468b-87f5-a28247a54175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adriel\FreeType\FreeType">
+      <UniqueIdentifier>{1f0aca27-aa3f-4423-a5d6-0d69df9d0163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\protobufs">
+      <UniqueIdentifier>{ddaed95a-6ec2-44cb-bcbf-967447db838c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CSGO_HX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMemory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BunnyHop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoWall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorCodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseHandle.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseAnimating.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseCombatWeapon.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CViewSetup.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IBaseClientDLL.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientModeShared.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IModelInfoClient.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameMovement.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IGlobalVarsBase.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IEngineTrace.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IEngineClient.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IPrediction.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVarManager.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Trace.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="VPhysics.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Usefuls.h">
+      <Filter>Header Files\Usefuls</Filter>
+    </ClInclude>
+    <ClInclude Include="CharSplit.h">
+      <Filter>Header Files\Usefuls</Filter>
+    </ClInclude>
+    <ClInclude Include="OverrideView.h">
+      <Filter>Header Files\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>Header Files\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateMove.h">
+      <Filter>Header Files\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="TraceRay.h">
+      <Filter>Header Files\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="VTHook.h">
+      <Filter>Header Files\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay.h">
+      <Filter>Header Files\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.h">
+      <Filter>Header Files\Usefuls</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Header Files\Usefuls</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Header Files\Offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\Usefuls</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEntity.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Reporting.h">
+      <Filter>Header Files\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="SetClanTag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ICvar.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ConVar.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Netchan.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="bfwrite.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="netadr.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CGOTVRecorder.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HitChance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="model_types.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEventListener.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Events.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EncryptString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RunCommand.h">
+      <Filter>Header Files\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="utlblockmemory.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="utlrbtree.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="utllinkedlist.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="utlmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="platform.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="memalloc.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="mathshit.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="INetchannelInfo.h">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ICollidable.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="RadianEuler.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ivdebugoverlay.h">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IVRenderView.h">
+      <Filter>Header Files\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX.h">
+      <Filter>Header Files\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Profiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utlvectorsimple.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="imdlcache.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Targetting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassIDS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMovementSimulation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TE_FireBullets.h">
+      <Filter>Header Files\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="dataupdatetypes.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="TE_EffectDispatch.h">
+      <Filter>Header Files\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="SpawnBlood.h">
+      <Filter>Header Files\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="GOTV.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientSideAnimationList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bitvec.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="coordsize.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="worldsize.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="VMProtectDefs.h">
+      <Filter>VMProtect</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVars.h">
+      <Filter>Header Files\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="IVPanel.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IVModelRender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameUpdatePostEntityThink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMaterialSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPerson.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Secret.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IInput.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomFont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Header Files\Skin Changer</Filter>
+    </ClInclude>
+    <ClInclude Include="threadtools.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerSide.h">
+      <Filter>Source Files\FarESP</Filter>
+    </ClInclude>
+    <ClInclude Include="FarESP.h">
+      <Filter>Source Files\FarESP</Filter>
+    </ClInclude>
+    <ClInclude Include="raw_buffer.h">
+      <Filter>Source Files\FarESP</Filter>
+    </ClInclude>
+    <ClInclude Include="custompackettypes.h">
+      <Filter>Source Files\FarESP</Filter>
+    </ClInclude>
+    <ClInclude Include="compression.h">
+      <Filter>Source Files\FarESP</Filter>
+    </ClInclude>
+    <ClInclude Include="mouseenable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CClientEntityList.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientEntityList.h">
+      <Filter>Header Files\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientUnknown.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="GameVersion.h">
+      <Filter>Header Files\Offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoSpam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessPacket.h">
+      <Filter>Header Files\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerResource.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="netmessages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inetmsghandler.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="inetmessage.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="soundinfo.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="soundflags.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="beams.h">
+      <Filter>Header Files\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="tempents.h">
+      <Filter>Header Files\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="checksum_crc.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageHandler.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="UsedConvars.h">
+      <Filter>Source Files\CVars</Filter>
+    </ClInclude>
+    <ClInclude Include="IInputSystem.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="HitboxDefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IViewRenderBeams.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CSGameRules.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="entitydefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gametypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vphysics_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C_TEMuzzleflash.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="shared_mem.h">
+      <Filter>Source Files\VAC</Filter>
+    </ClInclude>
+    <ClInclude Include="Keys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkedVariables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\gzip.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SurfaceDraw.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Fonts.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Visuals_imi.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalInfo.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot_imi.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponController.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Removals.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiAim.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Assistance.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoBone_imi.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="StudioRender.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Eventlog.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CClientState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spycam.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="IEngineSound.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerSounds.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBackup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientRenderable.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientNetworkable.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CParallelProcessor.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="C_CSGameTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLC_Move.h">
+      <Filter>Header Files\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="CSplitScreen.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="StringEncryption.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StringHashing.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rng.hpp">
+      <Filter>C++17</Filter>
+    </ClInclude>
+    <ClInclude Include="string_encryption.hpp">
+      <Filter>C++17</Filter>
+    </ClInclude>
+    <ClInclude Include="string_hashing.hpp">
+      <Filter>C++17</Filter>
+    </ClInclude>
+    <ClInclude Include="functors.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="refcount.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="callqueue.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="tslist.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="memdbgon.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_off.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="memdbgoff.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="UtlFixedMemory.hpp">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="precompiled.h">
+      <Filter>Header Files\Usefuls</Filter>
+    </ClInclude>
+    <ClInclude Include="GetValveAllocator.h">
+      <Filter>Header Files\Usefuls</Filter>
+    </ClInclude>
+    <ClInclude Include="dbgflag.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="dbg.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="string_encrypt_include.h">
+      <Filter>Header Files\Usefuls</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketStructs.h">
+      <Filter>Source Files\FarESP</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\console.hpp">
+      <Filter>Adriel\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\input.hpp">
+      <Filter>Adriel\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\singleton.hpp">
+      <Filter>Adriel\Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\json.hpp">
+      <Filter>Adriel\Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\ImGui\font_compressed.h">
+      <Filter>Adriel\ImGui\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\ImGui\image_compressed.h">
+      <Filter>Adriel\ImGui\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\ImGui\imconfig.h">
+      <Filter>Adriel\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\ImGui\imgui.h">
+      <Filter>Adriel\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\ImGui\imgui_internal.h">
+      <Filter>Adriel\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\ImGui\stb_rect_pack.h">
+      <Filter>Adriel\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\ImGui\stb_textedit.h">
+      <Filter>Adriel\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\ImGui\stb_truetype.h">
+      <Filter>Adriel\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\ImGui\dx9\imgui_impl_dx9.h">
+      <Filter>Adriel\ImGui\DirectX9</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\stdafx.hpp">
+      <Filter>Adriel\Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\imgui_extra.hpp">
+      <Filter>Adriel\ImGui\Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\config.hpp">
+      <Filter>Adriel\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\custom_def.hpp">
+      <Filter>Adriel\Custom Def</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\renderer.hpp">
+      <Filter>Adriel\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\variable.hpp">
+      <Filter>Adriel\Variable</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\ui.hpp">
+      <Filter>Adriel\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="IFileSystem.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\adr_math.hpp">
+      <Filter>Adriel\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\adr_util.hpp">
+      <Filter>Adriel\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\asuswall.hpp">
+      <Filter>Adriel\Features\asuswall</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\nade_prediction.hpp">
+      <Filter>Adriel\Features\nade_prediction</Filter>
+    </ClInclude>
+    <ClInclude Include="bone_setup.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AngularImpulse.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="compressed_vector.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="studio.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="bone_accessor.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Security.h">
+      <Filter>Header Files\Security</Filter>
+    </ClInclude>
+    <ClInclude Include="buildserver_chars.h">
+      <Filter>Header Files\Security</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientLeafSystem.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\clantag_changer.hpp">
+      <Filter>Adriel\Features\clantag_changer</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\name_changer.hpp">
+      <Filter>Adriel\Features\name_changer</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\spectator_list.hpp">
+      <Filter>Adriel\Features\spectator_list</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadPacketEntities.h">
+      <Filter>Header Files\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="dt_send.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="dt_common.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="byteswap.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="datamap.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="utlhash.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="generichash.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="utlsymbol.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="stringpool.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="strtools.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="utldict.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IKeyValuesSystem.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="utlbuffer.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="characterset.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="UtlSortVector.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CPhysicsEnvironment.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryLeaks.h">
+      <Filter>Header Files\Usefuls</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\ImGui\win32\imgui_impl_win32.h">
+      <Filter>Adriel\ImGui\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\ImGui\imstb_rectpack.h">
+      <Filter>Adriel\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\ImGui\imstb_textedit.h">
+      <Filter>Adriel\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\ImGui\imstb_truetype.h">
+      <Filter>Adriel\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="StatsTracker.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="TickbaseExploits.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Fakelag.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Logging2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResolveSides.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VarMapping_t.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="WaypointSystem.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="ProFont.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="c_renderer.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="c_font.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="GlowObjectManager.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriel\ImGui\imgui_freetype.h">
+      <Filter>Adriel\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\ft2build.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\freetype.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftadvanc.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftautoh.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftbbox.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftbdf.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftbitmap.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftbzip2.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftcache.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftcffdrv.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftchapters.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftcid.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftcolor.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftdriver.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\fterrdef.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\fterrors.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftfntfmt.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftgasp.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftglyph.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftgxval.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftgzip.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftimage.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftincrem.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftlcdfil.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftlist.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftlzw.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftmac.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftmm.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftmodapi.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftmoderr.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftotval.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftoutln.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftparams.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftpcfdrv.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftpfr.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftrender.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftsizes.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftsnames.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftstroke.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftsynth.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftsystem.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\fttrigon.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftttdrv.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\fttypes.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ftwinfnt.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\t1tables.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ttnameid.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\tttables.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\tttags.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\ttunpat.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\config\ftconfig.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\config\ftheader.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\config\ftmodule.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\config\ftoption.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FreeType\freetype\config\ftstdlib.h">
+      <Filter>Adriel\FreeType\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerrecord.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="GiftWrapAlgorithm.h">
+      <Filter>Source Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="CWeatherController.h">
+      <Filter>Source Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="IPhysicsCollision.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="iclientalphaproperty.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ConCommand.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ISteamNetworkingUtils.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SteamAPI.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="isteamgamecoordinator.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="isteamclient.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CSGO_HX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMemory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NoRecoil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoWall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseAnimating.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="IBaseClientDLL.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVarManager.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Trace.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="CharSplit.cpp">
+      <Filter>Source Files\Usefuls</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay.cpp">
+      <Filter>Source Files\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\Usefuls</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseEntity.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SetClanTag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConVar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEventListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EncryptString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="misc.cpp">
+      <Filter>Source Files\Usefuls</Filter>
+    </ClCompile>
+    <ClCompile Include="RadianEuler.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseHandle.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Profiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Targetting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientSideAnimationList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="netadr.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseCombatWeapon.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VTHook.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdPerson.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="SpawnBlood.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="TraceRay.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Reporting.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="TE_FireBullets.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="RunCommand.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="OverrideView.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="TE_EffectDispatch.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateMove.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameStageNotify.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVars.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="IsPaused.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="SendDatagram.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaySound.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="EmitSounds.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="PaintTraverse.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="IVPanel.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameUpdatePostEntityThink.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="IVModelRender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ISurface.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AllowThirdPersonCamera.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugResolver.cpp">
+      <Filter>Source Files\Resolver/Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="StartLagCompensation.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="threadtools.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerSide.cpp">
+      <Filter>Source Files\FarESP</Filter>
+    </ClCompile>
+    <ClCompile Include="FarESP.cpp">
+      <Filter>Source Files\FarESP</Filter>
+    </ClCompile>
+    <ClCompile Include="raw_buffer.cpp">
+      <Filter>Source Files\FarESP</Filter>
+    </ClCompile>
+    <ClCompile Include="compression.cpp">
+      <Filter>Source Files\FarESP</Filter>
+    </ClCompile>
+    <ClCompile Include="mouseenable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WriteUsercmdDeltaToBuffer.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="PrePostDataUpdate.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulate.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayFootstepSound.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="IsPlayer.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="ShouldInterpolate.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="SetupBones.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="IClientEntityList.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="DoExtraBoneProcessing.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="IsHLTV.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessTempEntities.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessPacket.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="SendNetMsg.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="netmessages.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="newbitbuf.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="beams.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="tempents.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="NETCHANNEL.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="checksum_crc.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageHandler.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Visual.cpp">
+      <Filter>Source Files\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="UsedConvars.cpp">
+      <Filter>Source Files\CVars</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="multithreaded_traceray.cpp">
+      <Filter>Source Files\Usefuls</Filter>
+    </ClCompile>
+    <ClCompile Include="bfwrite.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="EstimateAbsVelocity.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationRebuild.cpp">
+      <Filter>Source Files\Resolver/Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelInitPostEntity.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderView.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="DoPostScreenSpaceEffects.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassIDs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IGameMovement.cpp">
+      <Filter>Source Files\Resolver/Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="TE_MuzzleFlash.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="PredictionUpdate.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsSimulate.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon_ShootPosition.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="CalcView.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="shared_mem.cpp">
+      <Filter>Source Files\VAC</Filter>
+    </ClCompile>
+    <ClCompile Include="BypassVAC.cpp">
+      <Filter>Source Files\VAC</Filter>
+    </ClCompile>
+    <ClCompile Include="GetNetChannelInfo.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkedVariables.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Source Files\Usefuls</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\gzip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SurfaceDraw.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Visuals_imi.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalInfo.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponController.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Removals.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiAim.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Assistance.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawModelExecute.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawModel.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Eventlog.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewRender.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Spycam.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneEnd.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerSounds.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="InPrediction.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBackup.cpp">
+      <Filter>Source Files\Resolver/Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="IModelInfoClient.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="CParallelProcessor.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="IN_KeyEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CLC_Move.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="CSplitScreen.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerFallingDamage.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="valve_on.h">
+      <Filter>Header Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="memoverride.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="GetValveAllocator.cpp">
+      <Filter>Source Files\Usefuls</Filter>
+    </ClCompile>
+    <ClCompile Include="FakeLagOnPeek.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="CClientEntityListcpp.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRules.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Adriel\console.cpp">
+      <Filter>Adriel\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Adriel\input.cpp">
+      <Filter>Adriel\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Adriel\ImGui\imgui.cpp">
+      <Filter>Adriel\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Adriel\ImGui\imgui_draw.cpp">
+      <Filter>Adriel\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Adriel\ImGui\dx9\imgui_impl_dx9.cpp">
+      <Filter>Adriel\ImGui\DirectX9</Filter>
+    </ClCompile>
+    <ClCompile Include="Adriel\imgui_extra.cpp">
+      <Filter>Adriel\ImGui\Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="Adriel\config.cpp">
+      <Filter>Adriel\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Adriel\custom_def.cpp">
+      <Filter>Adriel\Custom Def</Filter>
+    </ClCompile>
+    <ClCompile Include="Adriel\renderer.cpp">
+      <Filter>Adriel\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Adriel\variable.cpp">
+      <Filter>Adriel\Variable</Filter>
+    </ClCompile>
+    <ClCompile Include="Adriel\ui.cpp">
+      <Filter>Adriel\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerResource.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="CViewModel.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Adriel\adr_math.cpp">
+      <Filter>Adriel\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Adriel\adr_util.cpp">
+      <Filter>Adriel\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Adriel\asuswall.cpp">
+      <Filter>Adriel\Features\asuswall</Filter>
+    </ClCompile>
+    <ClCompile Include="Adriel\nade_prediction.cpp">
+      <Filter>Adriel\Features\nade_prediction</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelShutdown.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelInitPreEntity.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Shutdown.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="bone_setup.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Security.cpp">
+      <Filter>Source Files\Security</Filter>
+    </ClCompile>
+    <ClCompile Include="buildserver_chars.cpp">
+      <Filter>Source Files\Security</Filter>
+    </ClCompile>
+    <ClCompile Include="AddRenderable.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorCodes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Adriel\clantag_changer.cpp">
+      <Filter>Adriel\Features\clantag_changer</Filter>
+    </ClCompile>
+    <ClCompile Include="Adriel\name_changer.cpp">
+      <Filter>Adriel\Features\name_changer</Filter>
+    </ClCompile>
+    <ClCompile Include="Adriel\spectator_list.cpp">
+      <Filter>Adriel\Features\spectator_list</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadPacketEntities.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="byteswap.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="CCSGOPlayerAnimState.cpp">
+      <Filter>Source Files\Resolver/Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="generichash.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="utlsymbol.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="stringpool.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="strtools.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="IKeyValuesSystem.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="CUtlBuffer.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="characterset.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="DoAnimationEvent.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="CSPlayerAnimState_Release.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="ExperimentalResolver.cpp">
+      <Filter>Source Files\Resolver/Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Events.cpp">
+      <Filter>Source Files\Resolver/Backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="CPhysicsEnvironment.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryLeaks.cpp">
+      <Filter>Source Files\Usefuls</Filter>
+    </ClCompile>
+    <ClCompile Include="Fakelag.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Adriel\ImGui\win32\imgui_impl_win32.cpp">
+      <Filter>Adriel\ImGui\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Adriel\ImGui\imgui_demo.cpp">
+      <Filter>Adriel\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Adriel\ImGui\imgui_widgets.cpp">
+      <Filter>Adriel\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="StatsTracker.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="TickbaseExploits.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoBuy.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Logging2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WaypointSystem.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="c_renderer.cpp">
+      <Filter>Header Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="c_font.cpp">
+      <Filter>Header Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessMovement.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Adriel\ImGui\imgui_freetype.cpp">
+      <Filter>Adriel\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="CShotRecord.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="CTickrecord.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerrecord.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot_Legit.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoBone.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="GiftWrapAlgorithm.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="CWeatherController.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="GetVCollide.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="ConCommand.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ISteamNetworkingUtils.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SteamAPI.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCoordinator.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="protobufs\cstrike15_gcmessages.pb.cc">
+      <Filter>Source Files\protobufs</Filter>
+    </ClCompile>
+    <ClCompile Include="protobufs\engine_gcmessages.pb.cc">
+      <Filter>Source Files\protobufs</Filter>
+    </ClCompile>
+    <ClCompile Include="protobufs\steammessages.pb.cc">
+      <Filter>Source Files\protobufs</Filter>
+    </ClCompile>
+    <ClCompile Include="SetReservationCookie.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="CClientState.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="newbitbuff.cpp">
+      <Filter>Source Files\Custom_SDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

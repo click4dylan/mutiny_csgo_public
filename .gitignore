@@ -1,0 +1,51 @@
+/*
+!.gitignore
+!/csgofullv2.sln
+!/CSGOFullv2
+CSGOFullv2/Debug
+CSGOFullv2/Release
+CSGOFullv2/x64
+CSGOFullv2/Debug Laptop
+CSGOFullv2/Release ATI
+CSGOFullv2/Release ATISSE2
+CSGOFullv2/ATISSE2C
+CSGOFullv2/Release Ignacio
+CSGOFullv2/Release Vista
+CSGOFullv2/Release NVSSE2
+CSGOFullv2/Release NVAVX
+CSGOFullv2/Release ServerSideOnly
+/CSGOFullv2/Release LLInjectable
+/CSGOFullv2/Release LLInjectable
+/CSGOFullv2/Release LLInjectable/Crypto.obj
+/CSGOFullv2/Release LLInjectable/framework.obj
+/CSGOFullv2/Release LLInjectable/Heartbeat.obj
+/CSGOFullv2/Release LLInjectable/JSON.obj
+/CSGOFullv2/Release LLInjectable/Logging.obj
+/CSGOFullv2/Release LLInjectable/ModuleSec.obj
+/CSGOFullv2/Release LLInjectable/RSA.obj
+/CSGOFullv2/Release LLInjectable/StringEncryption.obj
+/CSGOFullv2/ATISSE2C
+/CSGOFullv2/ATISSE2C
+/CSGOFullv2/ATISSE2C/Crypto.obj
+/CSGOFullv2/ATISSE2C/framework.obj
+/CSGOFullv2/ATISSE2C/Heartbeat.obj
+/CSGOFullv2/ATISSE2C/JSON.obj
+/CSGOFullv2/ATISSE2C/Logging.obj
+/CSGOFullv2/ATISSE2C/ModuleSec.obj
+/CSGOFullv2/ATISSE2C/RSA.obj
+/CSGOFullv2/ATISSE2C/StringEncryption.obj
+*.obj
+*.res
+*.pdb
+*.tlog
+*.log
+*.pch
+*.bak
+/CSGOFullv2/Release LLInjectable/nvollib.tlog
+/CSGOFullv2/Release LLInjectable/nvollib.tlog
+/CSGOFullv2/Release LLInjectable/nvollib.tlog/unsuccessfulbuild
+*.TMP
+/CSGOFullv2/Release_imi
+_clang-format
+*FileListAbsolute.txt
+/CSGOFullv2/Aimbot_imi - Copy.cpp
